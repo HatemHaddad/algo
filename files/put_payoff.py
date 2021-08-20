@@ -1,4 +1,4 @@
-# Risk profiles of put option buyer and seller¶
+# Risk profiles of put option buyer and seller
 # Buying a put option gives you the right, but not the obligation to sell the
 # underlying security at the given strike price,
 # within a specific time period. Therefore a put option payoff at expiration
@@ -6,7 +6,7 @@
 # the put option strike price.
 
 # In this notebook, we will plot a put buyer's and a put seller's payoff
-# graph for a 900 strike price put on the Infosys stock.
+# graph for a 900 strike price put
 
 
 import numpy as np
