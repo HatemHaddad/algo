@@ -1,3 +1,14 @@
+# Risk profiles of put option buyer and seller¶
+# Buying a put option gives you the right, but not the obligation to sell the
+# underlying security at the given strike price,
+# within a specific time period. Therefore a put option payoff at expiration
+# depends on where the underlying price is relative to
+# the put option strike price.
+
+# In this notebook, we will plot a put buyer's and a put seller's payoff
+# graph for a 900 strike price put on the Infosys stock.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -11,7 +22,8 @@ plt.style.use('seaborn-darkgrid')
 # the strike price of the put option and the premium of the put option as input.
 
 # It returns a numpy array containing the profit from put option for different stock prices.
-# When the stock price is less than the strike price, the profit is measured as the difference between strike price and stock price,
+# When the stock price is less than the strike price, the profit is measured as
+# the difference between strike price and stock price,
 # and when the stock price is greater than the strike price then the profit is zero.
 # After this, a put premium is deducted from the Profit-n-Lose(pnl) to compute the payoff.
 
