@@ -44,9 +44,9 @@ plt.show()
 
 payoff_short_put = payoff_long_put * -1.0
 # Plot
-fig, ax = plt.subplots(figsize=(8,5))
+fig, ax = plt.subplots(figsize=(8, 5))
 ax.spines['bottom'].set_position('zero')
-ax.plot(sT,payoff_short_put,label='Put option seller payoff',color='r')
+ax.plot(sT, payoff_short_put, label='Put option seller payoff', color='r')
 plt.xlabel('Infosys Stock Price')
 plt.ylabel('Profit and loss')
 plt.legend()
